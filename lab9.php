@@ -16,40 +16,13 @@ define('DESCRIPTION', 'Handling User Input - User Registration');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo LABTITLE; ?></title>
-    <style>
-        html {
-            height: 95vh;
-        }
 
-        header {
-            margin: 20px;
-        }
-
-        body {
-            height: 100%;
-        }
-
-        header h3,
-        h1 {
-            margin: 0;
-        }
-
-        .nav {
-            border-radius: 5px;
-            border: solid 2px grey;
-            display: inline-block;
-            width: 20%;
-            height: 100%;
-            margin-right: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body style="
   display:flex; 
   flex-direction:column; ">
-    <header style="margin: 20px;">
-
         <?PHP include 'header.php'; ?>
         <div style=" display: flex;
     flex: 1;margin-bottom:10px">

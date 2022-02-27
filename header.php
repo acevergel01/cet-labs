@@ -1,4 +1,4 @@
-<header style="margin: 20px;">
+<header style="">
         <div>
             <h1><?php echo NAME; ?></h1>
             <br>

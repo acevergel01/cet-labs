@@ -5,8 +5,9 @@ define('ADDRESS', 'Brgy Pembo, Makati City');
 define('EMAILADDRESS', 'acevergeldrapiza@gmail.com');
 define('CONTACTNUMBER', '09054336293');
 define('WEBADDRESS', 'avmdrapiza@iskolarngbayan.pup.edu.ph');
-define('LABTITLE', 'Laboratory Activity No. 1');
-define('DESCRIPTION', 'Hello World');
+define('LABTITLE', 'Laboratory Activity No. 3');
+define('DESCRIPTION', 'Working with Data Types and Operators');
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,33 +17,7 @@ define('DESCRIPTION', 'Hello World');
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php echo LABTITLE; ?></title>
-  <style>
-    html {
-      height: 95vh;
-    }
-
-    header {
-      margin: 20px;
-    }
-
-    body {
-      height: 100%;
-    }
-
-    header h3,
-    h1 {
-      margin: 0;
-    }
-
-    .nav {
-      border-radius: 5px;
-      border: solid 2px grey;
-      display: inline-block;
-      width: 20%;
-      height: 100%;
-      margin-right: 20px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body style="

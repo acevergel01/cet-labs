@@ -48,7 +48,6 @@ define('DESCRIPTION', 'Hello World');
 <body style="
   display:flex; 
   flex-direction:column; ">
-    <header style="margin: 20px;">
 
         <?PHP include 'header.php'; ?>
         <div style=" display: flex;
